@@ -1,0 +1,14 @@
+.liste{
+    margin: .9em;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center
+}
+
+.container{
+    margin: .9em;
+    padding: 10px;
+    display: inline-block;
+
+}

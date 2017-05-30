@@ -1,0 +1,15 @@
+<h3>Liste des clients</h3>
+
+    <table class="table table-striped">
+        <tr>
+            <th>Matricule</th>
+            <th>Nom</th>
+            <th>Prénom</th>
+        </tr>
+        <tr ng-repeat="topping in $ctrl.toppings track by $index">
+            <td> {{ topping.matricule }}</td>
+            <td> {{ topping.nom }}</td>
+            <td> {{ topping.prenom }}</td>
+        </tr>
+    </table>
+

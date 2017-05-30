@@ -1,0 +1,20 @@
+dta-toppings {
+    display: block;
+    margin: 1em 0;
+}
+
+dta-toppings:before {
+    display: table;
+    content: " ";
+}
+
+dta-toppings:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+dta-toppings button {
+    float: left;
+    margin: .5em;
+}

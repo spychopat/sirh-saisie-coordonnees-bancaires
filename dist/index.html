@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Burger</title>
+    <script src="/bundle.js"></script>
+    <style>
+        .container {
+            margin-top: 3em;
+        }
+        .sort.up::after {
+            content: ' ↑'
+        }
+        .sort.down::after {
+            content: ' ↓'
+        }
+    </style>
+    <base href="/">
+</head>
+<body id="body" ng-app="app">
+
+
+      <ng-view></ng-view>
+
+</body>
+</html>

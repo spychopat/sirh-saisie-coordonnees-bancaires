@@ -1,0 +1,17 @@
+<h1 class="text-center">SGP - Saisie des coordonnées bancaires</h1>
+<div class="container" >
+    <div class="row" >
+        <div class="col-sm-6">
+            <sgp-filtre
+            update-score="$ctrl.win($event)"
+            toppings="$ctrl.recipe">
+            </sgp-filtre>
+            <sgp-clients
+            toppings="$ctrl.toppings"
+            on-select="$ctrl.selectTopping($event)"></sgp-clients>
+        </div>
+        <div class="col-sm-6">
+            <sgp-banque toppings="$ctrl.burger"></sgp-banque>
+        </div>
+    </div>
+</div>
